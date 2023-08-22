@@ -1,121 +1,171 @@
+
+
+<script setup>
+import { ArrowRightIcon, ChevronDownIcon } from '@heroicons/vue/24/solid'
+</script>
+
 <template>
-  <div class="mx-w-max mb-24">
-    <div class="z-0 absolute w-screen h-screen lg:hidden flex items-end">
-      <img
-        class="h-auto w-screen"
-        src="~/assets/img/yo.png"
-        alt="Discover Nuxt 3"
-      />
-    </div>
-    <div class="flex flex-row flex-wrap ml-12">
-      <div class="basis-full lg:basis-3/5 pt-24 relative overflow-hidden">
-        <div
-          class="absolute blur-2xl z-[-1] rounded-full top-[-17rem] left-[20rem] bg-red-500 w-[70rem] h-[70rem]"
-        ></div>
+  <section class="relative pt-[48px] lg:pt-[146px] pb-0 lg:pb-[112px]">
 
-        <div class="flex flex-row w-screen h-screen lg:w-auto lg:h-auto">
-          <div class="basis-3/5 z-10">
-            <h1 class="text-9xl mb-6 font-bold">Leonardo Sifuentes</h1>
-            <span class="text-5xl subpixel-antialiased"
-              >Desarrollador Software</span
-            >
-            <span class="text-4xl font-bold block lg:hidden">
-              Estoy en búsqueda de un equipo donde pueda aplicar mis habilidades
-              como Desarrollador de Software. Mi enfoque honesto y apasionado me
-              impulsa a alcanzar objetivos con determinación.Mi experiencia se
-              centra en la creación de aplicaciones de alto rendimiento
-              respaldadas por arquitecturas sólidamente organizadas.
-            </span>
-          </div>
-          <div class="basis-2/5 z-0 hidden lg:block relative">
-            <img
-              class="h-[15rem] w-[15rem] rounded-full"
-              src="~/assets/img/yo.png"
-              alt="Discover Nuxt 3"
-            />
-          </div>
-        </div>
-
-        <div class="mt-12 relative pr-10">
-          <h2 class="text-6xl font-bold">Experiencia</h2>
-          <hr class="h-[0.5rem] my-4 w-full border-0 bg-gray-950" />
-          <div class="flex flex-col gap-12">
-            <ItemExp></ItemExp>
-            <ItemExp></ItemExp>
-            <ItemExp></ItemExp>
-            <ItemExp></ItemExp>
-          </div>
-        </div>
-        <div class="mt-9 relative pr-10">
-          <h2 class="text-6xl font-bold">Educación</h2>
-          <hr class="h-[0.5rem] my-4 w-full border-0 bg-gray-950" />
-          <div class="flex flex-col gap-12">
-            <div class="relative">
-              <h3 class="text-4xl font-medium mb-1">INSTITUTO SENATI</h3>
-              <h3 class="text-3xl font-bold mb-5">
-                Software Development | 2018 - 2021
-              </h3>
-              <ul class="list-disc list-inside">
-                <li class="text-2xl">
-                  Conocimiento en el proceso de desarrollo de software.
-                </li>
-              </ul>
-            </div>
-            <div class="relative">
-              <h3 class="text-3xl font-bold mb-5">PLATZI</h3>
-              <ul class="list-disc list-inside">
-                <li class="text-2xl">Curso profecional Angular</li>
-                <li class="text-2xl">Curso de React js</li>
-              </ul>
-            </div>
-            <div class="relative">
-              <h3 class="text-3xl font-bold mb-5">UDEMY</h3>
-              <ul class="list-disc list-inside">
-                <li class="text-2xl">
-                  Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="relative z-10 max-w-[1268px] px-[20px] lg:px-[24px] mx-auto">
       <div
-        class="basis-full lg:basis-2/5 lg:pt-20 lg:pl-10 pr-10 relative overflow-hidden"
-      >
-        <div
-          class="absolute blur-2xl z-[-1] rounded-full top-[51rem] right-[3rem] bg-gray-200 w-[70rem] h-[70rem]"
-        ></div>
-        <div class="flex flex-col-reverse flex-wrap lg:flex-col">
-          <span class="text-4xl font-bold hidden lg:block">
-            Estoy en búsqueda de un equipo donde pueda aplicar mis habilidades
-            como Desarrollador de Software. Mi enfoque honesto y apasionado me
-            impulsa a alcanzar objetivos con determinación.Mi experiencia se
-            centra en la creación de aplicaciones de alto rendimiento
-            respaldadas por arquitecturas sólidamente organizadas.
-          </span>
-          <div class="relative">
-            <h2 class="text-6xl mt-12 font-bold">Contacto</h2>
-            <hr class="h-[0.5rem] my-4 w-full border-0 bg-gray-950" />
-            <div class="relative">
-              <p class="text-xl">leonardosm3.14@gmail.com</p>
-              <p class="text-xl">(+51) 924 426 169</p>
-              <p class="text-xl">LinkedIn: @leonardo</p>
+        class="grid items-center auto-cols-[1fr] grid-cols-[1fr] lg:grid-cols-[1fr,1fr] grid-rows-[auto] gap-x-[28px] gap-y-[64px] lg:gap-y-[80px]">
+        <div class="block self-start max-w-full lg:max-w-[546px] mt-0 lg:mt-[60px]">
+
+          <div class="max-w-[100px] lg:max-w-[148px] min-h-[4px] lg:min-h-[8px] mb-[24px] lg:mb-[49px] w-full bg-white">
+          </div>
+          <h1 class="mb-[10px] lg:mb-[12px] text-white text-[34px] lg:text-[76px] leading-[1.132em] font-bold">
+            I’m Leo, a
+            <br>
+            Web Developer
+          </h1>
+          <div class="max-w-full lg:max-w-[504px]">
+            <p class="my-0">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis id
+              elementum convallis lacus gravida.
+
+            </p>
+          </div>
+
+          <a href="#about" class="flex 
+              overflow-hidden 
+              w-[64px] lg:w-[120px] 
+              h-[64px] lg:h-[120px] 
+              min-h-[64px] lg:min-h-[120px] 
+              min-w-[64px] lg:min-w-[120px] 
+              mt-[24px]  lg:mt-[74px] 
+              justify-center 
+              items-center 
+              rounded-full 
+              bg-[#075fe4] 
+              transition-transform 
+              text-white 
+              text-[28px] lg:text-[50px] 
+              leading-[1em] 
+              p-[22px] lg:p-0
+              no-underline
+              ">
+            <!-- width: 64px;
+    height: 64px;
+    min-height: 64px;
+    min-width: 64px;
+    margin-top: 24px;
+    padding: 22px;
+    font-size: 28px; -->
+            <div class="line-square-icon"
+              style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              <ChevronDownIcon class="h-12 w-12" />
+            </div>
+          </a>
+        </div>
+        <div class="max-w-full lg:max-w-[342px] justify-self-start lg:justify-self-end col-start-[span 1]">
+
+
+          <div class="">
+            <div class="flex items-start flex-col">
+              <div class="mb-[16px] font-normal">
+                <div class="text-white font-bold uppercase tracking-widest leading-[1.111em]">
+                  About me
+                </div>
+              </div>
+              <p class="mb-[24px] lg:mb-[32px]">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis
+                id elementum convallis lacus gravida.
+              </p>
+              <a href="/about"
+                class="text-white mt-auto relative inline-block whitespace-nowrap duration-0 ease-linear delay-0 transition-none max-w-full bg-transparent no-underline">
+                <div
+                  class="text-[16px] leading-[1.125em] tracking-wider uppercase inline-block duration-300 ease-in delay-0 transition-colors">
+                  Learn more</div>
+                <div class="inline-block ml-[6px]">
+                  <ArrowRightIcon class="h-4 w-4" />
+                </div>
+                <div class="min-h-[1.5px] w-full mt-[6px] bg-[#5d6c83]">
+                  <div class="min-h-[1.5px]" style="width: 0%;height: 1.5px;"></div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <div class="h-[1px]  my-[40px] lg:my-[50px] bg-[#2d343f]"></div>
+            </div>
+            <div class="flex items-start flex-col">
+              <div class="mb-[16px] font-normal">
+                <div class="text-white font-bold uppercase tracking-widest leading-[1.111em]">
+                  My work
+                </div>
+              </div>
+              <p class="mb-[32px]">
+                Purus ut faucibus pulvinar elementum integer enim neque fermentum iaculis eu non
+                diam phasellus dolor consectur.
+              </p>
+              <a href="/about"
+                class="text-white mt-auto relative inline-block whitespace-nowrap duration-0 ease-linear delay-0 transition-none max-w-full bg-transparent no-underline">
+                <div
+                  class="text-[16px] leading-[1.125em] tracking-wider uppercase inline-block duration-300 ease-in delay-0 transition-colors">
+                  Browse portfolio</div>
+                <div class="inline-block ml-[6px]">
+                  <ArrowRightIcon class="h-4 w-4" />
+                </div>
+                <div class="min-h-[1.5px] w-full mt-[6px] bg-[#5d6c83]">
+                  <div class="min-h-[1.5px]" style="width: 0%;height: 1.5px;"></div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div>
+            <div class="h-[1px] my-[50px] bg-[#2d343f]"></div>
+          </div>
+          <div class="mb-[24px]">
+            <div class="font-bold tracking-widest text-white uppercase leading-[1.111em]">
+              Follow me
             </div>
           </div>
-          <div class="relative">
-            <h2 class="text-6xl mt-24 font-bold">Habilidades y experiencia</h2>
-            <hr class="h-[0.5rem] my-4 w-full border-0 bg-gray-950" />
-            <ul class="list-disc list-inside">
-              <li class="text-2xl">HTML5, CSS3, JavaScript, PHP Y .NET.</li>
-              <li class="text-2xl">Frameworks JS (React, Vue.js, Angular)</li>
-              <li class="text-2xl">Optimización de Rendimiento</li>
-              <li class="text-2xl">Git y GitHub</li>
-              <li class="text-2xl">Integración de APIs</li>
-              <li class="text-2xl">Consultas sql</li>
-            </ul>
+          <div
+            class="grid justify-start justify-items-start flex-[1] gap-x-[26px] gap-y-[16px] grid-cols-6 grid-rows-none ">
+            <!-- justify-content: start;
+            justify-items: start;
+            flex: 1;
+            grid-column-gap: 26px;
+            grid-row-gap: 16px;
+            grid-template-columns: repeat(auto-fit, 26px);
+            -ms-grid-rows: auto;
+            grid-template-rows: auto; -->
+            <a data-w-id="d0235440-dcd9-912e-e256-a37c2833d211" href="https://facebook.com/" target="_blank"
+              class="social-icon w-inline-block">
+              <div class="social-icon-font"></div>
+            </a><a data-w-id="d0235440-dcd9-912e-e256-a37c2833d214" href="https://twitter.com/" target="_blank"
+              class="social-icon w-inline-block">
+              <div class="social-icon-font"></div>
+            </a><a data-w-id="d0235440-dcd9-912e-e256-a37c2833d217" href="https://www.instagram.com/" target="_blank"
+              class="social-icon w-inline-block">
+              <div class="social-icon-font"></div>
+            </a><a data-w-id="d0235440-dcd9-912e-e256-a37c2833d21a" href="https://www.linkedin.com/" target="_blank"
+              class="social-icon w-inline-block">
+              <div class="social-icon-font"></div>
+            </a><a data-w-id="d0235440-dcd9-912e-e256-a37c2833d21d" href="https://youtube.com/" target="_blank"
+              class="social-icon w-inline-block">
+              <div class="social-icon-font"></div>
+            </a><a data-w-id="2b2f33df-3a72-4bef-81c4-877448a0b977" href="https://github.com/" target="_blank"
+              class="social-icon w-inline-block">
+              <div class="social-icon-font"></div>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <div class="relative lg:absolute  left-0 right-0 bottom-[-52px] flex w-full justify-center"
+      style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+      <!-- position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -52px;
+    display: flex;
+    width: 100%;
+    justify-content: center; -->
+      <img src="~/assets/img/yo.png" loading="eager" sizes="(max-width: 479px) 90vw, (max-width: 1439px) 70vw, 1000px"
+        alt="Web Developer - Developer X Webflow Template"
+        class="w-[50%] max-w-[1000px] ml-[18px] inline-block align-middle border-0 scale-x-[-1]">
+    </div>
+  </section>
 </template>
